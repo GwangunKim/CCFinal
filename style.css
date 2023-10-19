@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    
+}
+.big{
+    font-size: 100px;
+    font-family: monospace;
+    font-weight: 200;
+}
+#red{
+    color: coral;
+}
+#green{
+    color:aquamarine;
+}
+#yellow{
+    color: khaki;
+}
+a{
+    color: aqua;
+}
+a:hover{
+    color: yellowgreen;
+}
+
+#title{
+    text-align: center;
+}
+#content{
+    width: 70%;
+    position: relative
+    center: 50%;
+    padding: 30px;
+}
+.left{
+    float: left;
+    width: 50%;
+}
+.right{
+    float: left;
+    width: 50%;
+}
+.two-columns:after{
+    text-align: center;
+    content: "";
+    display: table;
+    clear: both;
+}
+#footer{
+    text-align: center;
+    font-size: 9px;
+}
