@@ -28,6 +28,7 @@ body{
 
 }.subtitle{
     background-color: black;
+    color:#d799f5;
     font-size: 25px;
     width:100%;
     margin: 0%;
@@ -42,6 +43,7 @@ body{
     padding:0%;
 
 }.sideboxinstruction{
+    color:#d799f5;
     background-color: black;
     font-family:'Playpen Sans';
     font-size: 50px;
@@ -50,6 +52,7 @@ body{
     width: 30%; 
 
 }.sideboxinstruction1{
+    color:#d799f5;
     background-color: black;
     font-family:'Playpen Sans';
     font-size: 50px;
@@ -74,8 +77,8 @@ body{
     font-family: 'M PLUS Rounded 1c';
     text-align: left;
     line-height: 150%;
-    font-size:18px;
-    margin: 40px;
+    font-size:22px;
+    margin: 30px;
     margin-top:0;
     margin-right:30;
     width: 25%;

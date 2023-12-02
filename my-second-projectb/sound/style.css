@@ -1,4 +1,17 @@
-body{
+button{
+    margin: 10px;
+    background: none;
+    color: white;
+    border: 4px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all 0.5s;
+}button:hover{
+    border-color: #d799f5;
+    color: #d799f5;
+    box-shadow: 0 1.5em 2em -0.9em #8f20c6;
+    cursor: pointer;
+}body{
     background-color: black;
 }.flex-container{
     display: flex;
@@ -19,10 +32,32 @@ body{
     text-align: center;
     font-family: 'Shadows Into Light';
 
-}
-.title{
+}.title{
     background-color: black;
     color:white;
     width:100%;
     font-family:'Playpen Sans';
+
+}.projectname{
+    background-color: black;
+    color:#d799f5;
+    font-family:'shadows into light';
+    font-size: 30px;
+    text-align: center;
+    width:100%;
+    margin: 1%;
+    padding:0%;
+    margin-bottom:0;
+}.subbox1{
+    width: 100%;
+    background-color: black;
+    color:white;
+    font-family:'M PLUS Rounded 1c';
+    margin: 0;
+    padding:0;
+    height: 30%;
+    font-size: 15px;
+    text-align: center;
+    line-height: 50%;
+
 }

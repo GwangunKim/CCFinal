@@ -23,7 +23,8 @@ function preload() {
 
 function setup(){
   let index = int(random(0,5));
-  createCanvas(img.width,img.height);
+  let cnv = createCanvas(img.width,img.height);
+  cnv.parent("canvasContainer");
   cols = width/size;
   rows = height/size;
   for (let i=0; i<cols; i++){

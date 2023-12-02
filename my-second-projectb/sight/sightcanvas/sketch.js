@@ -10,7 +10,8 @@ function preload() {
   img = loadImage('forest2.png');
 }
 function setup() {
-  createCanvas(1200,640);
+  let cnv = createCanvas(1200,640);
+  cnv.parent("canvasContainer");
   //sunset setup
   for (let i = 0; i < 3; i++) {
     birds[i] = new Bird();
